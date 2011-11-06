@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A5B1981465CC14009E718A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A5B1971465CC14009E718A /* UIKit.framework */; };
+		A7A5B19A1465CC14009E718A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A5B1991465CC14009E718A /* Foundation.framework */; };
+		A7A5B19C1465CC14009E718A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A5B19B1465CC14009E718A /* CoreGraphics.framework */; };
+		A7A5B1A21465CC14009E718A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7A5B1A01465CC14009E718A /* InfoPlist.strings */; };
+		A7A5B1A41465CC14009E718A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5B1A31465CC14009E718A /* main.m */; };
+		A7A5B1A81465CC14009E718A /* SquaresAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5B1A71465CC14009E718A /* SquaresAppDelegate.m */; };
+		A7A5B1AB1465CC14009E718A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A5B1A91465CC14009E718A /* MainWindow.xib */; };
+		A7A5B1AE1465CC14009E718A /* SquaresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A5B1AD1465CC14009E718A /* SquaresViewController.m */; };
+		A7A5B1B11465CC15009E718A /* SquaresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A5B1AF1465CC15009E718A /* SquaresViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7A5B1931465CC13009E718A /* Squares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squares.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A5B1971465CC14009E718A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7A5B1991465CC14009E718A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7A5B19B1465CC14009E718A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7A5B19F1465CC14009E718A /* Squares-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Squares-Info.plist"; sourceTree = "<group>"; };
+		A7A5B1A11465CC14009E718A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7A5B1A31465CC14009E718A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7A5B1A51465CC14009E718A /* Squares-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Squares-Prefix.pch"; sourceTree = "<group>"; };
+		A7A5B1A61465CC14009E718A /* SquaresAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquaresAppDelegate.h; sourceTree = "<group>"; };
+		A7A5B1A71465CC14009E718A /* SquaresAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquaresAppDelegate.m; sourceTree = "<group>"; };
+		A7A5B1AA1465CC14009E718A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A7A5B1AC1465CC14009E718A /* SquaresViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquaresViewController.h; sourceTree = "<group>"; };
+		A7A5B1AD1465CC14009E718A /* SquaresViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquaresViewController.m; sourceTree = "<group>"; };
+		A7A5B1B01465CC15009E718A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SquaresViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A5B1901465CC13009E718A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A5B1981465CC14009E718A /* UIKit.framework in Frameworks */,
+				A7A5B19A1465CC14009E718A /* Foundation.framework in Frameworks */,
+				A7A5B19C1465CC14009E718A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A5B1881465CC13009E718A = {
+			isa = PBXGroup;
+			children = (
+				A7A5B19D1465CC14009E718A /* Squares */,
+				A7A5B1961465CC13009E718A /* Frameworks */,
+				A7A5B1941465CC13009E718A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A5B1941465CC13009E718A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5B1931465CC13009E718A /* Squares.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A5B1961465CC13009E718A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5B1971465CC14009E718A /* UIKit.framework */,
+				A7A5B1991465CC14009E718A /* Foundation.framework */,
+				A7A5B19B1465CC14009E718A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A5B19D1465CC14009E718A /* Squares */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5B1A61465CC14009E718A /* SquaresAppDelegate.h */,
+				A7A5B1A71465CC14009E718A /* SquaresAppDelegate.m */,
+				A7A5B1A91465CC14009E718A /* MainWindow.xib */,
+				A7A5B1AC1465CC14009E718A /* SquaresViewController.h */,
+				A7A5B1AD1465CC14009E718A /* SquaresViewController.m */,
+				A7A5B1AF1465CC15009E718A /* SquaresViewController.xib */,
+				A7A5B19E1465CC14009E718A /* Supporting Files */,
+			);
+			path = Squares;
+			sourceTree = "<group>";
+		};
+		A7A5B19E1465CC14009E718A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A5B19F1465CC14009E718A /* Squares-Info.plist */,
+				A7A5B1A01465CC14009E718A /* InfoPlist.strings */,
+				A7A5B1A31465CC14009E718A /* main.m */,
+				A7A5B1A51465CC14009E718A /* Squares-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A5B1921465CC13009E718A /* Squares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A5B1B41465CC15009E718A /* Build configuration list for PBXNativeTarget "Squares" */;
+			buildPhases = (
+				A7A5B18F1465CC13009E718A /* Sources */,
+				A7A5B1901465CC13009E718A /* Frameworks */,
+				A7A5B1911465CC13009E718A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squares;
+			productName = Squares;
+			productReference = A7A5B1931465CC13009E718A /* Squares.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A5B18A1465CC13009E718A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A7A5B18D1465CC13009E718A /* Build configuration list for PBXProject "Squares" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7A5B1881465CC13009E718A;
+			productRefGroup = A7A5B1941465CC13009E718A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A5B1921465CC13009E718A /* Squares */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A5B1911465CC13009E718A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A5B1A21465CC14009E718A /* InfoPlist.strings in Resources */,
+				A7A5B1AB1465CC14009E718A /* MainWindow.xib in Resources */,
+				A7A5B1B11465CC15009E718A /* SquaresViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A5B18F1465CC13009E718A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A5B1A41465CC14009E718A /* main.m in Sources */,
+				A7A5B1A81465CC14009E718A /* SquaresAppDelegate.m in Sources */,
+				A7A5B1AE1465CC14009E718A /* SquaresViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7A5B1A01465CC14009E718A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A5B1A11465CC14009E718A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7A5B1A91465CC14009E718A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A5B1AA1465CC14009E718A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A7A5B1AF1465CC15009E718A /* SquaresViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A5B1B01465CC15009E718A /* en */,
+			);
+			name = SquaresViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A5B1B21465CC15009E718A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7A5B1B31465CC15009E718A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A5B1B51465CC15009E718A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Squares/Squares-Prefix.pch";
+				INFOPLIST_FILE = "Squares/Squares-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7A5B1B61465CC15009E718A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Squares/Squares-Prefix.pch";
+				INFOPLIST_FILE = "Squares/Squares-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A5B18D1465CC13009E718A /* Build configuration list for PBXProject "Squares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A5B1B21465CC15009E718A /* Debug */,
+				A7A5B1B31465CC15009E718A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A5B1B41465CC15009E718A /* Build configuration list for PBXNativeTarget "Squares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A5B1B51465CC15009E718A /* Debug */,
+				A7A5B1B61465CC15009E718A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A5B18A1465CC13009E718A /* Project object */;
+}

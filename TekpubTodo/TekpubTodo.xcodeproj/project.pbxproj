@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A752BD53146703BB00654E7E /* TodoEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = A752BD51146703BB00654E7E /* TodoEditorController.m */; };
+		A752BD54146703BB00654E7E /* TodoEditorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A752BD52146703BB00654E7E /* TodoEditorController.xib */; };
+		A76E3B3214659190009F193E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76E3B3114659190009F193E /* UIKit.framework */; };
+		A76E3B3414659190009F193E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76E3B3314659190009F193E /* Foundation.framework */; };
+		A76E3B3614659190009F193E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76E3B3514659190009F193E /* CoreGraphics.framework */; };
+		A76E3B3C14659190009F193E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A76E3B3A14659190009F193E /* InfoPlist.strings */; };
+		A76E3B3E14659190009F193E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E3B3D14659190009F193E /* main.m */; };
+		A76E3B4214659190009F193E /* TekpubTodoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E3B4114659190009F193E /* TekpubTodoAppDelegate.m */; };
+		A76E3B4514659190009F193E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76E3B4314659190009F193E /* MainWindow.xib */; };
+		A76E3B4814659190009F193E /* TekpubTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E3B4714659190009F193E /* TekpubTodoViewController.m */; };
+		A76E3B4B14659191009F193E /* TekpubTodoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A76E3B4914659191009F193E /* TekpubTodoViewController.xib */; };
+		A784772D146597F5004BD3C7 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = A784772C146597F5004BD3C7 /* Todo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A752BD50146703BB00654E7E /* TodoEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoEditorController.h; sourceTree = "<group>"; };
+		A752BD51146703BB00654E7E /* TodoEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoEditorController.m; sourceTree = "<group>"; };
+		A752BD52146703BB00654E7E /* TodoEditorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodoEditorController.xib; sourceTree = "<group>"; };
+		A76E3B2D14659190009F193E /* TekpubTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TekpubTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76E3B3114659190009F193E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A76E3B3314659190009F193E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A76E3B3514659190009F193E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A76E3B3914659190009F193E /* TekpubTodo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TekpubTodo-Info.plist"; sourceTree = "<group>"; };
+		A76E3B3B14659190009F193E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A76E3B3D14659190009F193E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A76E3B3F14659190009F193E /* TekpubTodo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TekpubTodo-Prefix.pch"; sourceTree = "<group>"; };
+		A76E3B4014659190009F193E /* TekpubTodoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TekpubTodoAppDelegate.h; sourceTree = "<group>"; };
+		A76E3B4114659190009F193E /* TekpubTodoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekpubTodoAppDelegate.m; sourceTree = "<group>"; };
+		A76E3B4414659190009F193E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A76E3B4614659190009F193E /* TekpubTodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TekpubTodoViewController.h; sourceTree = "<group>"; };
+		A76E3B4714659190009F193E /* TekpubTodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekpubTodoViewController.m; sourceTree = "<group>"; };
+		A76E3B4A14659191009F193E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TekpubTodoViewController.xib; sourceTree = "<group>"; };
+		A784772B146597F5004BD3C7 /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		A784772C146597F5004BD3C7 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A76E3B2A14659190009F193E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76E3B3214659190009F193E /* UIKit.framework in Frameworks */,
+				A76E3B3414659190009F193E /* Foundation.framework in Frameworks */,
+				A76E3B3614659190009F193E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A76E3B2214659190009F193E = {
+			isa = PBXGroup;
+			children = (
+				A76E3B3714659190009F193E /* TekpubTodo */,
+				A76E3B3014659190009F193E /* Frameworks */,
+				A76E3B2E14659190009F193E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A76E3B2E14659190009F193E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76E3B2D14659190009F193E /* TekpubTodo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76E3B3014659190009F193E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A76E3B3114659190009F193E /* UIKit.framework */,
+				A76E3B3314659190009F193E /* Foundation.framework */,
+				A76E3B3514659190009F193E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A76E3B3714659190009F193E /* TekpubTodo */ = {
+			isa = PBXGroup;
+			children = (
+				A76E3B4014659190009F193E /* TekpubTodoAppDelegate.h */,
+				A76E3B4114659190009F193E /* TekpubTodoAppDelegate.m */,
+				A76E3B4314659190009F193E /* MainWindow.xib */,
+				A76E3B4614659190009F193E /* TekpubTodoViewController.h */,
+				A76E3B4714659190009F193E /* TekpubTodoViewController.m */,
+				A76E3B4914659191009F193E /* TekpubTodoViewController.xib */,
+				A76E3B3814659190009F193E /* Supporting Files */,
+				A784772B146597F5004BD3C7 /* Todo.h */,
+				A784772C146597F5004BD3C7 /* Todo.m */,
+				A752BD50146703BB00654E7E /* TodoEditorController.h */,
+				A752BD51146703BB00654E7E /* TodoEditorController.m */,
+				A752BD52146703BB00654E7E /* TodoEditorController.xib */,
+			);
+			path = TekpubTodo;
+			sourceTree = "<group>";
+		};
+		A76E3B3814659190009F193E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A76E3B3914659190009F193E /* TekpubTodo-Info.plist */,
+				A76E3B3A14659190009F193E /* InfoPlist.strings */,
+				A76E3B3D14659190009F193E /* main.m */,
+				A76E3B3F14659190009F193E /* TekpubTodo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A76E3B2C14659190009F193E /* TekpubTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76E3B4E14659191009F193E /* Build configuration list for PBXNativeTarget "TekpubTodo" */;
+			buildPhases = (
+				A76E3B2914659190009F193E /* Sources */,
+				A76E3B2A14659190009F193E /* Frameworks */,
+				A76E3B2B14659190009F193E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TekpubTodo;
+			productName = TekpubTodo;
+			productReference = A76E3B2D14659190009F193E /* TekpubTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A76E3B2414659190009F193E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A76E3B2714659190009F193E /* Build configuration list for PBXProject "TekpubTodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A76E3B2214659190009F193E;
+			productRefGroup = A76E3B2E14659190009F193E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A76E3B2C14659190009F193E /* TekpubTodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A76E3B2B14659190009F193E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76E3B3C14659190009F193E /* InfoPlist.strings in Resources */,
+				A76E3B4514659190009F193E /* MainWindow.xib in Resources */,
+				A76E3B4B14659191009F193E /* TekpubTodoViewController.xib in Resources */,
+				A752BD54146703BB00654E7E /* TodoEditorController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A76E3B2914659190009F193E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76E3B3E14659190009F193E /* main.m in Sources */,
+				A76E3B4214659190009F193E /* TekpubTodoAppDelegate.m in Sources */,
+				A76E3B4814659190009F193E /* TekpubTodoViewController.m in Sources */,
+				A784772D146597F5004BD3C7 /* Todo.m in Sources */,
+				A752BD53146703BB00654E7E /* TodoEditorController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A76E3B3A14659190009F193E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76E3B3B14659190009F193E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A76E3B4314659190009F193E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76E3B4414659190009F193E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A76E3B4914659191009F193E /* TekpubTodoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76E3B4A14659191009F193E /* en */,
+			);
+			name = TekpubTodoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76E3B4C14659191009F193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A76E3B4D14659191009F193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A76E3B4F14659191009F193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TekpubTodo/TekpubTodo-Prefix.pch";
+				INFOPLIST_FILE = "TekpubTodo/TekpubTodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A76E3B5014659191009F193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TekpubTodo/TekpubTodo-Prefix.pch";
+				INFOPLIST_FILE = "TekpubTodo/TekpubTodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A76E3B2714659190009F193E /* Build configuration list for PBXProject "TekpubTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76E3B4C14659191009F193E /* Debug */,
+				A76E3B4D14659191009F193E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76E3B4E14659191009F193E /* Build configuration list for PBXNativeTarget "TekpubTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76E3B4F14659191009F193E /* Debug */,
+				A76E3B5014659191009F193E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A76E3B2414659190009F193E /* Project object */;
+}
