@@ -16,16 +16,6 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-- (id)initWithCoder:(NSCoder *)coder {    
-    if (self = [super initWithCoder:coder]) {
-        items = [[NSMutableArray alloc] init];
-        [items addObject:@"Trio's"];
-        [items addObject:@"Ekta"];
-    }
-    return self;
-}
-
-
 #pragma mark -
 #pragma mark Event Handlers
 
@@ -34,7 +24,10 @@
 }
 
 -(IBAction)edit {
+    editing = !editing;
     
+    if (editing)
+        [tableView setEditing:YES];
 }
 
 #pragma mark -
@@ -60,6 +53,9 @@
 #pragma mark -
 #pragma mark UITableViewDelegate
 
+- (void)tableView:(UITableView *)sourceTableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [sourceTableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 
 #pragma mark - View lifecycle
 
@@ -67,7 +63,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+    items = [[NSMutableArray alloc] init];
+    [items addObject:@"Trio's"];
+    [items addObject:@"Ekta"];
 }
 
 - (void)viewDidUnload

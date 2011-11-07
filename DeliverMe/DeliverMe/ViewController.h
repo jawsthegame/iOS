@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
     IBOutlet UITableView *tableView;
     NSMutableArray *items;
+    BOOL editing;
 }
 
 -(IBAction)add;
