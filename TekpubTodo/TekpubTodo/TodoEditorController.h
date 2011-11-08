@@ -10,7 +10,7 @@
 
 @interface TodoEditorController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate> {
     id<TodoEditorDelegate> delegate;
-    UITextField* textField;
+    UITextField *textField;
     NSString *defaultText;
 }
 
