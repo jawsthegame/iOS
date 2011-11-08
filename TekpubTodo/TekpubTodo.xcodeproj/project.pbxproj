@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71638B71468BD210024EF4F /* todo.db in Resources */ = {isa = PBXBuildFile; fileRef = A71638B61468BD210024EF4F /* todo.db */; };
+		A71638BA1468BD800024EF4F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A71638B91468BD800024EF4F /* libsqlite3.0.dylib */; };
+		A71638BD1468BDA20024EF4F /* TodoDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A71638BC1468BDA20024EF4F /* TodoDatabase.m */; };
+		A71638C01468BE490024EF4F /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A71638BF1468BE490024EF4F /* FileHelper.m */; };
+		A71638C81468D6E50024EF4F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A71638C21468D6E50024EF4F /* FMResultSet.m */; };
+		A71638C91468D6E50024EF4F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A71638C41468D6E50024EF4F /* FMDatabaseAdditions.m */; };
+		A71638CA1468D6E50024EF4F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A71638C61468D6E50024EF4F /* FMDatabase.m */; };
+		A71638CD1468D72F0024EF4F /* FMDBTodoDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A71638CC1468D72F0024EF4F /* FMDBTodoDatabase.m */; };
 		A752BD53146703BB00654E7E /* TodoEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = A752BD51146703BB00654E7E /* TodoEditorController.m */; };
 		A752BD54146703BB00654E7E /* TodoEditorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A752BD52146703BB00654E7E /* TodoEditorController.xib */; };
 		A76E3B3214659190009F193E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76E3B3114659190009F193E /* UIKit.framework */; };
@@ -22,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A71638B61468BD210024EF4F /* todo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = todo.db; sourceTree = SOURCE_ROOT; };
+		A71638B91468BD800024EF4F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A71638BB1468BDA20024EF4F /* TodoDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoDatabase.h; sourceTree = "<group>"; };
+		A71638BC1468BDA20024EF4F /* TodoDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoDatabase.m; sourceTree = "<group>"; };
+		A71638BE1468BE490024EF4F /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		A71638BF1468BE490024EF4F /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		A71638C21468D6E50024EF4F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A71638C31468D6E50024EF4F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A71638C41468D6E50024EF4F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A71638C51468D6E50024EF4F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A71638C61468D6E50024EF4F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A71638C71468D6E50024EF4F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A71638CB1468D72F0024EF4F /* FMDBTodoDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBTodoDatabase.h; sourceTree = "<group>"; };
+		A71638CC1468D72F0024EF4F /* FMDBTodoDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBTodoDatabase.m; sourceTree = "<group>"; };
 		A752BD50146703BB00654E7E /* TodoEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoEditorController.h; sourceTree = "<group>"; };
 		A752BD51146703BB00654E7E /* TodoEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoEditorController.m; sourceTree = "<group>"; };
 		A752BD52146703BB00654E7E /* TodoEditorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodoEditorController.xib; sourceTree = "<group>"; };
@@ -48,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71638BA1468BD800024EF4F /* libsqlite3.0.dylib in Frameworks */,
 				A76E3B3214659190009F193E /* UIKit.framework in Frameworks */,
 				A76E3B3414659190009F193E /* Foundation.framework in Frameworks */,
 				A76E3B3614659190009F193E /* CoreGraphics.framework in Frameworks */,
@@ -57,6 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A71638C11468D6CB0024EF4F /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A71638C21468D6E50024EF4F /* FMResultSet.m */,
+				A71638C31468D6E50024EF4F /* FMResultSet.h */,
+				A71638C41468D6E50024EF4F /* FMDatabaseAdditions.m */,
+				A71638C51468D6E50024EF4F /* FMDatabaseAdditions.h */,
+				A71638C61468D6E50024EF4F /* FMDatabase.m */,
+				A71638C71468D6E50024EF4F /* FMDatabase.h */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
 		A76E3B2214659190009F193E = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +113,7 @@
 		A76E3B3014659190009F193E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A71638B91468BD800024EF4F /* libsqlite3.0.dylib */,
 				A76E3B3114659190009F193E /* UIKit.framework */,
 				A76E3B3314659190009F193E /* Foundation.framework */,
 				A76E3B3514659190009F193E /* CoreGraphics.framework */,
@@ -87,18 +124,25 @@
 		A76E3B3714659190009F193E /* TekpubTodo */ = {
 			isa = PBXGroup;
 			children = (
+				A71638C11468D6CB0024EF4F /* FMDB */,
 				A76E3B4014659190009F193E /* TekpubTodoAppDelegate.h */,
 				A76E3B4114659190009F193E /* TekpubTodoAppDelegate.m */,
 				A76E3B4314659190009F193E /* MainWindow.xib */,
 				A76E3B4614659190009F193E /* TekpubTodoViewController.h */,
 				A76E3B4714659190009F193E /* TekpubTodoViewController.m */,
 				A76E3B4914659191009F193E /* TekpubTodoViewController.xib */,
-				A76E3B3814659190009F193E /* Supporting Files */,
 				A784772B146597F5004BD3C7 /* Todo.h */,
 				A784772C146597F5004BD3C7 /* Todo.m */,
 				A752BD50146703BB00654E7E /* TodoEditorController.h */,
 				A752BD51146703BB00654E7E /* TodoEditorController.m */,
 				A752BD52146703BB00654E7E /* TodoEditorController.xib */,
+				A71638BB1468BDA20024EF4F /* TodoDatabase.h */,
+				A71638BC1468BDA20024EF4F /* TodoDatabase.m */,
+				A71638BE1468BE490024EF4F /* FileHelper.h */,
+				A71638BF1468BE490024EF4F /* FileHelper.m */,
+				A76E3B3814659190009F193E /* Supporting Files */,
+				A71638CB1468D72F0024EF4F /* FMDBTodoDatabase.h */,
+				A71638CC1468D72F0024EF4F /* FMDBTodoDatabase.m */,
 			);
 			path = TekpubTodo;
 			sourceTree = "<group>";
@@ -106,6 +150,7 @@
 		A76E3B3814659190009F193E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A71638B61468BD210024EF4F /* todo.db */,
 				A76E3B3914659190009F193E /* TekpubTodo-Info.plist */,
 				A76E3B3A14659190009F193E /* InfoPlist.strings */,
 				A76E3B3D14659190009F193E /* main.m */,
@@ -168,6 +213,7 @@
 				A76E3B4514659190009F193E /* MainWindow.xib in Resources */,
 				A76E3B4B14659191009F193E /* TekpubTodoViewController.xib in Resources */,
 				A752BD54146703BB00654E7E /* TodoEditorController.xib in Resources */,
+				A71638B71468BD210024EF4F /* todo.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +229,12 @@
 				A76E3B4814659190009F193E /* TekpubTodoViewController.m in Sources */,
 				A784772D146597F5004BD3C7 /* Todo.m in Sources */,
 				A752BD53146703BB00654E7E /* TodoEditorController.m in Sources */,
+				A71638BD1468BDA20024EF4F /* TodoDatabase.m in Sources */,
+				A71638C01468BE490024EF4F /* FileHelper.m in Sources */,
+				A71638C81468D6E50024EF4F /* FMResultSet.m in Sources */,
+				A71638C91468D6E50024EF4F /* FMDatabaseAdditions.m in Sources */,
+				A71638CA1468D6E50024EF4F /* FMDatabase.m in Sources */,
+				A71638CD1468D72F0024EF4F /* FMDBTodoDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

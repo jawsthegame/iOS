@@ -9,10 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface Todo : NSObject {
+    int todoId;
     NSString *text;
     BOOL completed;
 }
 
+@property (nonatomic) int todoId;
 @property (nonatomic, copy) NSString *text;
 @property (nonatomic) BOOL completed;
 

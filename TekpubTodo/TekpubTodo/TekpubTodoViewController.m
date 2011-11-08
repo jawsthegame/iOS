@@ -9,23 +9,15 @@
 #import "TekpubTodoViewController.h"
 #import "Todo.h"
 #import "TodoEditorController.h"
+#import "FMDBTodoDatabase.h"
 
 @implementation TekpubTodoViewController
 
 #pragma mark Initialization
 
-- (void)addTodo:(NSString *)text {
-    Todo *todo = [[Todo alloc] initWithText:text];
-    [todoItems addObject:todo];
-    [todo release];
-}
-
 - (id)initWithCoder:(NSCoder *)aDecoder {
     if(self = [super initWithCoder:aDecoder]) {
-        todoItems = [[NSMutableArray alloc] init];
-        [self addTodo:@"Take out the trash"];
-        [self addTodo:@"Do the dishes"];
-        [self addTodo:@"Record a screencast"];
+        
     }
     
     return self;
@@ -33,6 +25,8 @@
 
 - (void) viewDidLoad {
     [super viewDidLoad];
+    db = [[FMDBTodoDatabase alloc] init];
+    todoItems = [[db fetchTodos] retain];
     tableView.allowsSelectionDuringEditing = YES;
 }
 
@@ -64,11 +58,14 @@
         
         if (lastEditingTodo == nil) {            
             Todo *todo = [[Todo alloc] initWithText:text];
-            [todoItems addObject:todo];
+            [db insertTodo:todo];
+            [todoItems release];
+            todoItems = [[db fetchTodos] retain];
             [todo release];
         }
         else {
             lastEditingTodo.text = text;
+            [db updateTodo:lastEditingTodo];
         }        
         
         [tableView reloadData];
@@ -107,7 +104,10 @@
 
 - (void)tableView:(UITableView *)sourceTableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if(editingStyle == UITableViewCellEditingStyleDelete) {
-        [todoItems removeObjectAtIndex:indexPath.row];
+        Todo *todo = [todoItems objectAtIndex:indexPath.row];
+        [db deleteTodo:todo.todoId];
+        [todoItems release];
+        todoItems = [[db fetchTodos] retain];
         [sourceTableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationRight];
     }
 }
@@ -125,7 +125,7 @@
     }
     else {
         todo.completed = !todo.completed;
-        
+        [db updateTodo:todo];
         [sourceTableView reloadData];
     }
     

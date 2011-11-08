@@ -4,17 +4,31 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "1"
-         filePath = "TekpubTodo/TekpubTodoViewController.m"
-         timestampString = "342326633.548757"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "24"
-         endingLineNumber = "24"
-         landmarkName = "-initWithCoder:"
+         filePath = "TekpubTodo/TodoDatabase.m"
+         timestampString = "342414725.835151"
+         startingColumnNumber = "2147483647"
+         endingColumnNumber = "2147483647"
+         startingLineNumber = "120"
+         endingLineNumber = "120"
+         landmarkName = "-insertTodo:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "TekpubTodo/TodoDatabase.m"
+         timestampString = "342413953.06262"
+         startingColumnNumber = "2147483647"
+         endingColumnNumber = "2147483647"
+         startingLineNumber = "62"
+         endingLineNumber = "62"
+         landmarkName = "-runSimpleStatement:withDb:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -7,8 +7,8 @@
 //
 
 #import "TekpubTodoAppDelegate.h"
-
 #import "TekpubTodoViewController.h"
+#import "TodoDatabase.h"
 
 @implementation TekpubTodoAppDelegate
 
@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [TodoDatabase makeWritableDatabase];
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

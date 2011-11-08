@@ -10,8 +10,7 @@
 
 @implementation Todo
 
-@synthesize text;
-@synthesize completed;
+@synthesize text, completed, todoId;
 
 -(id)initWithText:(NSString *)someText {
     if (self = [super init]) {

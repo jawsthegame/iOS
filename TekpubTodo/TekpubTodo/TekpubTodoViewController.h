@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "TodoEditorController.h"
 #import "Todo.h"
+#import "TodoDatabase.h"
 
 @interface TekpubTodoViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, TodoEditorDelegate> {
-    NSMutableArray *todoItems;
+    TodoDatabase *db;
+    NSArray *todoItems;
     IBOutlet UITableView *tableView;
     BOOL editing;
     Todo *lastEditingTodo;
